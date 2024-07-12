@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\tea.csproj": {}
+    "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/tea.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\tea.csproj": {
+    "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/tea.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\tea.csproj",
+        "projectUniqueName": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/tea.csproj",
         "projectName": "tea",
-        "projectPath": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\tea.csproj",
-        "packagesPath": "C:\\Users\\VVVVVV\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\obj\\",
+        "projectPath": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/tea.csproj",
+        "packagesPath": "/Users/lichunxia/.nuget/packages/",
+        "outputPath": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\VVVVVV\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/lichunxia/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -91,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

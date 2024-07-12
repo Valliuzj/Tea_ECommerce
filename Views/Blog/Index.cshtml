@@ -1,47 +1,29 @@
 @model IEnumerable<Blog>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Blogs";
 }
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Content)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Author)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Content)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Author)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.BlogId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.BlogId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.BlogId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<!-- Article Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        @foreach (var item in Model) {
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <img class="img-fluid" src="img/article.jpg" alt="">
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="section-title">
+                        @* <p class="fs-5 fw-medium fst-italic text-primary">Featured Acticle</p> *@
+                        <h1 class="display-6">@item.Title</h1>
+                    </div>
+                    <p class="mb-4">@item.Content</p>
+                    <p class="mb-4">Author: @item.Author</p>
+                    <a asp-action="Details" asp-route-id="@item.BlogId" class="btn btn-primary rounded-pill py-3 px-5">Read More</a>
+                </div>
+            </div>
+        }
+        
+    </div>
+</div>
+    <!-- Article End -->

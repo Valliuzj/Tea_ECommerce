@@ -5,6 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.IO;
+
 
 namespace tea
 {
@@ -19,6 +23,11 @@ namespace tea
 
         // GET: Product
         public async Task<IActionResult> Index()
+        {
+            return View(await _context.products.ToListAsync());
+        }
+
+        public async Task<IActionResult> Manage()
         {
             return View(await _context.products.ToListAsync());
         }
@@ -52,7 +61,7 @@ namespace tea
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ProductId,ProductCode,ProductType,Description,UnitPrice,QtyInStock")] Product product)
+        public async Task<IActionResult> Create([Bind("ProductId,ProductCode,Name,Description,UnitPrice,QtyInStock")] Product product)
         {
             if (ModelState.IsValid)
             {
@@ -84,7 +93,7 @@ namespace tea
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ProductId,ProductCode,ProductType,Description,UnitPrice,QtyInStock")] Product product)
+        public async Task<IActionResult> Edit(int id, [Bind("ProductId,ProductCode,Name,Description,UnitPrice,QtyInStock")] Product product)
         {
             if (id != product.ProductId)
             {
@@ -95,6 +104,19 @@ namespace tea
             {
                 try
                 {
+                    // if (file == null || file.Length == 0)
+                    // {
+                    //     ModelState.AddModelError("File", "Please select a file to upload.");
+                    //     return View(product);
+                    // }
+                    // var uniqueFileName = GetUniqueFileName(file.FileName);
+                    // var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", uniqueFileName);
+                    // var imagePath = $"img/{uniqueFileName}";
+                    // using (var stream = new FileStream(filePath, FileMode.Create))
+                    // {
+                    //     await File.CopyToAsync(stream);
+                    // }
+                    // product.ImageUrl = imagePath;
                     _context.Update(product);
                     await _context.SaveChangesAsync();
                 }
@@ -150,6 +172,14 @@ namespace tea
         private bool ProductExists(int id)
         {
             return _context.products.Any(e => e.ProductId == id);
+        }
+
+        private string GetUniqueFileName(string fileName)
+        {
+            var fileExtension = Path.GetExtension(fileName);
+            var fileNameWithoutExtension = Path.GetFileNameWithoutExtension(fileName);
+
+            return $"{fileNameWithoutExtension}_{Guid.NewGuid()}{fileExtension}";
         }
     }
 }

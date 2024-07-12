@@ -22,6 +22,13 @@ namespace tea
             return View(await _context.blogs.ToListAsync());
         }
 
+          // GET: Blog
+        public async Task<IActionResult> Manage()
+        {
+            return View(await _context.blogs.ToListAsync());
+        }
+
+
         // GET: Blog/Details/5
         public async Task<IActionResult> Details(int? id)
         {

@@ -46,11 +46,15 @@ namespace tea.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("ProductCode")
+                    b.Property<string>("ImageUrl")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("ProductType")
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ProductCode")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
@@ -58,7 +62,7 @@ namespace tea.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<decimal>("UnitPrice")
-                        .HasColumnType("decimal(12, 2)");
+                        .HasColumnType("TEXT");
 
                     b.HasKey("ProductId");
 

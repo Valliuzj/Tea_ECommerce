@@ -1,263 +1,443 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\tea.bundle.scp.css",
-      "PackagePath": "staticwebassets\\tea.bundle.scp.css"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/obj/Debug/net8.0/scopedcss/projectbundle/tea.bundle.scp.css",
+      "PackagePath": "staticwebassets/tea.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\bootstrap"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/about-1.jpg",
+      "PackagePath": "staticwebassets/img/about-1.jpg"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/about-2.jpg",
+      "PackagePath": "staticwebassets/img/about-2.jpg"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/about-3.jpg",
+      "PackagePath": "staticwebassets/img/about-3.jpg"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/about-4.jpg",
+      "PackagePath": "staticwebassets/img/about-4.jpg"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/about-5.jpg",
+      "PackagePath": "staticwebassets/img/about-5.jpg"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/about-6.jpg",
+      "PackagePath": "staticwebassets/img/about-6.jpg"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/article.jpg",
+      "PackagePath": "staticwebassets/img/article.jpg"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/carousel-1.jpg",
+      "PackagePath": "staticwebassets/img/carousel-1.jpg"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/carousel-2.jpg",
+      "PackagePath": "staticwebassets/img/carousel-2.jpg"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/logo.png",
+      "PackagePath": "staticwebassets/img/logo.png"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/product-1.jpg",
+      "PackagePath": "staticwebassets/img/product-1.jpg"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/product-2.jpg",
+      "PackagePath": "staticwebassets/img/product-2.jpg"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/product-3.jpg",
+      "PackagePath": "staticwebassets/img/product-3.jpg"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/product-4.jpg",
+      "PackagePath": "staticwebassets/img/product-4.jpg"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/product-bg.png",
+      "PackagePath": "staticwebassets/img/product-bg.png"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/store-product-1.jpg",
+      "PackagePath": "staticwebassets/img/store-product-1.jpg"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/store-product-2.jpg",
+      "PackagePath": "staticwebassets/img/store-product-2.jpg"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/store-product-3.jpg",
+      "PackagePath": "staticwebassets/img/store-product-3.jpg"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/testimonial-1.jpg",
+      "PackagePath": "staticwebassets/img/testimonial-1.jpg"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/testimonial-2.jpg",
+      "PackagePath": "staticwebassets/img/testimonial-2.jpg"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/testimonial-3.jpg",
+      "PackagePath": "staticwebassets/img/testimonial-3.jpg"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/testimonial-bg.jpg",
+      "PackagePath": "staticwebassets/img/testimonial-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/video-bg.jpg",
+      "PackagePath": "staticwebassets/img/video-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/js/main.js",
+      "PackagePath": "staticwebassets/js/main.js"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/animate/animate.css",
+      "PackagePath": "staticwebassets/lib/animate/animate.css"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/animate/animate.min.css",
+      "PackagePath": "staticwebassets/lib/animate/animate.min.css"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\VVVVVV\\Desktop\\Internet\\tea\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.tea.props",
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/easing/easing.js",
+      "PackagePath": "staticwebassets/lib/easing/easing.js"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/easing/easing.min.js",
+      "PackagePath": "staticwebassets/lib/easing/easing.min.js"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/owlcarousel/LICENSE",
+      "PackagePath": "staticwebassets/lib/owlcarousel"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/owlcarousel/assets/ajax-loader.gif",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/ajax-loader.gif"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/owlcarousel/assets/owl.carousel.css",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.carousel.css"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/owlcarousel/assets/owl.carousel.min.css",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.carousel.min.css"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/owlcarousel/assets/owl.theme.default.css",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.theme.default.css"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/owlcarousel/assets/owl.theme.default.min.css",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.theme.default.min.css"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/owlcarousel/assets/owl.theme.green.css",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.theme.green.css"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/owlcarousel/assets/owl.theme.green.min.css",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.theme.green.min.css"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/owlcarousel/assets/owl.video.play.png",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.video.play.png"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/owlcarousel/owl.carousel.js",
+      "PackagePath": "staticwebassets/lib/owlcarousel/owl.carousel.js"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/owlcarousel/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/lib/owlcarousel/owl.carousel.min.js"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/waypoints/links.php",
+      "PackagePath": "staticwebassets/lib/waypoints/links.php"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/waypoints/waypoints.min.js",
+      "PackagePath": "staticwebassets/lib/waypoints/waypoints.min.js"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/wow/wow.js",
+      "PackagePath": "staticwebassets/lib/wow/wow.js"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/lib/wow/wow.min.js",
+      "PackagePath": "staticwebassets/lib/wow/wow.min.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.tea.props",
       "PackagePath": "build\\tea.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.tea.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.tea.props",
       "PackagePath": "buildMultiTargeting\\tea.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.tea.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.tea.props",
       "PackagePath": "buildTransitive\\tea.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.tea.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.tea.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     }
   ],
