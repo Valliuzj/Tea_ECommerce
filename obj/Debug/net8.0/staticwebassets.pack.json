@@ -69,6 +69,14 @@
       "PackagePath": "staticwebassets/img/carousel-2.jpg"
     },
     {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/favicon-16x16.png",
+      "PackagePath": "staticwebassets/img/favicon-16x16.png"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/favicon.ico",
+      "PackagePath": "staticwebassets/img/favicon.ico"
+    },
+    {
       "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/fruite-item-3_bb3e798d-e508-48e4-bc8e-d75f373461b7.jpg",
       "PackagePath": "staticwebassets/img/fruite-item-3_bb3e798d-e508-48e4-bc8e-d75f373461b7.jpg"
     },
