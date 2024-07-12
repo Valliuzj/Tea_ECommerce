@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets/img/article.jpg"
     },
     {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/article_b20a7915-50fd-4330-9cf2-2206d2f2e7b4.jpg",
+      "PackagePath": "staticwebassets/img/article_b20a7915-50fd-4330-9cf2-2206d2f2e7b4.jpg"
+    },
+    {
       "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/best-product-2_03b14a54-e05f-498d-b8ca-e76035eaec9c.jpg",
       "PackagePath": "staticwebassets/img/best-product-2_03b14a54-e05f-498d-b8ca-e76035eaec9c.jpg"
     },
@@ -103,6 +107,10 @@
     {
       "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/store-product-2.jpg",
       "PackagePath": "staticwebassets/img/store-product-2.jpg"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/store-product-2_54df0f9e-2909-4795-bf8f-a84a5ef9ed37.jpg",
+      "PackagePath": "staticwebassets/img/store-product-2_54df0f9e-2909-4795-bf8f-a84a5ef9ed37.jpg"
     },
     {
       "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/store-product-3.jpg",

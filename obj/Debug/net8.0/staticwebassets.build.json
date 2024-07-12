@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "V98reezmVJbv5muzC3nMoVtJQADtR5hHBtc7MnmyltA=",
+  "Hash": "uLMxwO7MyZ4umgM0kz9I4Wgry26/6JU/lpCtm6QEYCU=",
   "Source": "tea",
   "BasePath": "_content/tea",
   "Mode": "Default",
@@ -243,6 +243,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/about-6.jpg"
+    },
+    {
+      "Identity": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/article_b20a7915-50fd-4330-9cf2-2206d2f2e7b4.jpg",
+      "SourceId": "tea",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/",
+      "BasePath": "_content/tea",
+      "RelativePath": "img/article_b20a7915-50fd-4330-9cf2-2206d2f2e7b4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/article_b20a7915-50fd-4330-9cf2-2206d2f2e7b4.jpg"
     },
     {
       "Identity": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/article.jpg",
@@ -509,6 +528,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/store-product-1.jpg"
+    },
+    {
+      "Identity": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/store-product-2_54df0f9e-2909-4795-bf8f-a84a5ef9ed37.jpg",
+      "SourceId": "tea",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/",
+      "BasePath": "_content/tea",
+      "RelativePath": "img/store-product-2_54df0f9e-2909-4795-bf8f-a84a5ef9ed37.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/store-product-2_54df0f9e-2909-4795-bf8f-a84a5ef9ed37.jpg"
     },
     {
       "Identity": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/store-product-2.jpg",

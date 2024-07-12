@@ -56,13 +56,37 @@ namespace tea
         // POST: Blog/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("BlogId,Title,Content,Author")] Blog blog)
+        public async Task<IActionResult> Create(IFormFile file, [Bind("BlogId,Title,Content,Author")] Blog blog)
         {
+            Console.WriteLine("ModelState.IsValid: " + ModelState.IsValid);
+            if (!ModelState.IsValid)
+            {
+                foreach (var key in ModelState.Keys)
+                {
+                    var state = ModelState[key];
+                    foreach (var error in state.Errors)
+                    {
+                        Console.WriteLine($"Error in {key}: {error.ErrorMessage}");
+                    }
+                }
+            }
+            
             if (ModelState.IsValid)
             {
+                if(file != null && file.Length != 0) {
+                    Console.WriteLine("file is not null");
+                    var uniqueFileName = GetUniqueFileName(file.FileName);
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", uniqueFileName);
+                    var imagePath = $"img/{uniqueFileName}";
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await file.CopyToAsync(stream);
+                    }
+                    blog.ImageUrl = imagePath;
+                }
                 _context.Add(blog);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Manage));
             }
             return View(blog);
         }
@@ -86,7 +110,7 @@ namespace tea
         // POST: Blog/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("BlogId,Title,Content,Author")] Blog blog)
+        public async Task<IActionResult> Edit(int id, IFormFile? file, [Bind("BlogId,Title,Content,Author")] Blog blog)
         {
             if (id != blog.BlogId)
             {
@@ -95,8 +119,27 @@ namespace tea
 
             if (ModelState.IsValid)
             {
+                var currentItem = await _context.blogs.FindAsync(id);
+                if (currentItem == null)
+                {
+                    return NotFound();
+                }
                 try
                 {
+                    if(file != null && file.Length != 0) {
+                        Console.WriteLine("file is not null");
+                        var uniqueFileName = GetUniqueFileName(file.FileName);
+                        var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", uniqueFileName);
+                        var imagePath = $"img/{uniqueFileName}";
+                        using (var stream = new FileStream(filePath, FileMode.Create))
+                        {
+                            await file.CopyToAsync(stream);
+                        }
+                        blog.ImageUrl = imagePath;
+                    } else {
+                        blog.ImageUrl = currentItem.ImageUrl;
+                    }
+                    _context.ChangeTracker.Clear();
                     _context.Update(blog);
                     await _context.SaveChangesAsync();
                 }
@@ -111,7 +154,7 @@ namespace tea
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Manage));
             }
             return View(blog);
         }
@@ -146,12 +189,21 @@ namespace tea
             }
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Manage));
         }
 
         private bool BlogExists(int id)
         {
             return _context.blogs.Any(e => e.BlogId == id);
+        }
+
+
+        private string GetUniqueFileName(string fileName)
+        {
+            var fileExtension = Path.GetExtension(fileName);
+            var fileNameWithoutExtension = Path.GetFileNameWithoutExtension(fileName);
+
+            return $"{fileNameWithoutExtension}_{Guid.NewGuid()}{fileExtension}";
         }
     }
 }

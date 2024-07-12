@@ -173,7 +173,7 @@ namespace tea
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Manage));
             }
             return View(product);
         }
@@ -208,7 +208,7 @@ namespace tea
             }
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Manage));
         }
 
         private bool ProductExists(int id)
