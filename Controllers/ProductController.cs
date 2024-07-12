@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.IO;
-
+using Microsoft.Extensions.Configuration;
 
 namespace tea
 {
@@ -61,13 +61,37 @@ namespace tea
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ProductId,ProductCode,Name,Description,UnitPrice,QtyInStock")] Product product)
-        {
+        public async Task<IActionResult> Create(IFormFile file, [Bind("ProductId,ProductCode,Name,Description,UnitPrice,QtyInStock")] Product product)
+        {    
+            Console.WriteLine("ModelState.IsValid: " + ModelState.IsValid);
+            if (!ModelState.IsValid)
+            {
+                foreach (var key in ModelState.Keys)
+                {
+                    var state = ModelState[key];
+                    foreach (var error in state.Errors)
+                    {
+                        Console.WriteLine($"Error in {key}: {error.ErrorMessage}");
+                    }
+                }
+            }
+
             if (ModelState.IsValid)
             {
+                 if(file != null && file.Length != 0) {
+                    Console.WriteLine("file is not null");
+                    var uniqueFileName = GetUniqueFileName(file.FileName);
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", uniqueFileName);
+                    var imagePath = $"img/{uniqueFileName}";
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await file.CopyToAsync(stream);
+                    }
+                    product.ImageUrl = imagePath;
+                }
                 _context.Add(product);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Manage));
             }
             return View(product);
         }
@@ -93,8 +117,20 @@ namespace tea
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ProductId,ProductCode,Name,Description,UnitPrice,QtyInStock")] Product product)
+        public async Task<IActionResult> Edit(int id, IFormFile? file, [Bind("ProductId,ProductCode,Name,Description,UnitPrice,QtyInStock")] Product product)
         {
+            Console.WriteLine("ModelState.IsValid: " + ModelState.IsValid);
+            if (!ModelState.IsValid)
+            {
+                foreach (var key in ModelState.Keys)
+                {
+                    var state = ModelState[key];
+                    foreach (var error in state.Errors)
+                    {
+                        Console.WriteLine($"Error in {key}: {error.ErrorMessage}");
+                    }
+                }
+            }
             if (id != product.ProductId)
             {
                 return NotFound();
@@ -102,21 +138,27 @@ namespace tea
 
             if (ModelState.IsValid)
             {
+                var currentProduct = await _context.products.FindAsync(id);
+                if (currentProduct == null)
+                {
+                    return NotFound();
+                }
                 try
                 {
-                    // if (file == null || file.Length == 0)
-                    // {
-                    //     ModelState.AddModelError("File", "Please select a file to upload.");
-                    //     return View(product);
-                    // }
-                    // var uniqueFileName = GetUniqueFileName(file.FileName);
-                    // var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", uniqueFileName);
-                    // var imagePath = $"img/{uniqueFileName}";
-                    // using (var stream = new FileStream(filePath, FileMode.Create))
-                    // {
-                    //     await File.CopyToAsync(stream);
-                    // }
-                    // product.ImageUrl = imagePath;
+                    if(file != null && file.Length != 0) {
+                        Console.WriteLine("file is not null");
+                        var uniqueFileName = GetUniqueFileName(file.FileName);
+                        var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", uniqueFileName);
+                        var imagePath = $"img/{uniqueFileName}";
+                        using (var stream = new FileStream(filePath, FileMode.Create))
+                        {
+                            await file.CopyToAsync(stream);
+                        }
+                        product.ImageUrl = imagePath;
+                    } else {
+                        product.ImageUrl = currentProduct.ImageUrl;
+                    }
+                    _context.ChangeTracker.Clear();
                     _context.Update(product);
                     await _context.SaveChangesAsync();
                 }

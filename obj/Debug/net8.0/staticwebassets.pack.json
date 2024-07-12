@@ -49,12 +49,28 @@
       "PackagePath": "staticwebassets/img/article.jpg"
     },
     {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/best-product-2_03b14a54-e05f-498d-b8ca-e76035eaec9c.jpg",
+      "PackagePath": "staticwebassets/img/best-product-2_03b14a54-e05f-498d-b8ca-e76035eaec9c.jpg"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/best-product-5_a09c03bd-943c-49df-bdc2-93784d6dd84b.jpg",
+      "PackagePath": "staticwebassets/img/best-product-5_a09c03bd-943c-49df-bdc2-93784d6dd84b.jpg"
+    },
+    {
       "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/carousel-1.jpg",
       "PackagePath": "staticwebassets/img/carousel-1.jpg"
     },
     {
       "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/carousel-2.jpg",
       "PackagePath": "staticwebassets/img/carousel-2.jpg"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/fruite-item-3_bb3e798d-e508-48e4-bc8e-d75f373461b7.jpg",
+      "PackagePath": "staticwebassets/img/fruite-item-3_bb3e798d-e508-48e4-bc8e-d75f373461b7.jpg"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/fruite-item-4_77fb185a-ae79-4ec5-9c5b-48b4abf5aff9.jpg",
+      "PackagePath": "staticwebassets/img/fruite-item-4_77fb185a-ae79-4ec5-9c5b-48b4abf5aff9.jpg"
     },
     {
       "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/logo.png",
@@ -111,6 +127,10 @@
     {
       "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/video-bg.jpg",
       "PackagePath": "staticwebassets/img/video-bg.jpg"
+    },
+    {
+      "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/img/第二华尔兹弦乐四重奏07_dbcd74b0-4b85-4472-9269-388f668fe241.jpeg",
+      "PackagePath": "staticwebassets/img/第二华尔兹弦乐四重奏07_dbcd74b0-4b85-4472-9269-388f668fe241.jpeg"
     },
     {
       "Id": "/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/wwwroot/js/main.js",

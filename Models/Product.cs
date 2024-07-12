@@ -17,6 +17,6 @@ public class Product{
 
     public int QtyInStock {get; set;}
 
-    public string ImageUrl {get; set;}    
+    public string? ImageUrl {get; set;}    
     
 }
