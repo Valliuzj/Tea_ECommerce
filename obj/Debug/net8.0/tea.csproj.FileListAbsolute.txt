@@ -519,3 +519,6 @@ C:/Users/VVVVVV/Desktop/Internet/tea/bin/Debug/net8.0/runtimes/win/lib/net7.0/Sy
 /Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/obj/Debug/net8.0/tea.pdb
 /Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/obj/Debug/net8.0/tea.genruntimeconfig.cache
 /Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/obj/Debug/net8.0/ref/tea.dll
+/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/bin/Debug/net8.0/BouncyCastle.Cryptography.dll
+/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/bin/Debug/net8.0/MailKit.dll
+/Users/lichunxia/Documents/FDU/2024summer/6844/Tea_ECommerce/bin/Debug/net8.0/MimeKit.dll

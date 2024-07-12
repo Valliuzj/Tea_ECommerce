@@ -7,6 +7,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(
     options => options.UseSqlite(builder.Configuration.GetConnectionString("Default"))
 );
+builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
@@ -27,5 +28,7 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapRazorPages();
 
 app.Run();
