@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-public class AppDbContext: DbContext
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+
+public class AppDbContext: IdentityDbContext
 {
     public AppDbContext(DbContextOptions<AppDbContext> options):base(options){
     }
