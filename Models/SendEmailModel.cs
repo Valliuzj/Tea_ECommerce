@@ -11,6 +11,4 @@ public class SendEmailModel
     // [BindProperty]
     public string Body { get; set; }
 
-    public string Message { get; set; }
-
 }

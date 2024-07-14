@@ -17,6 +17,18 @@ public class EmailController : Controller
     [HttpPost]
     public IActionResult SendEmail([Bind("ToEmail,Subject,Body")] SendEmailModel model)
     {
+        // Console.WriteLine("ModelState.IsValid: " + ModelState.IsValid);
+        if (!ModelState.IsValid)
+        {
+            foreach (var key in ModelState.Keys)
+            {
+                var state = ModelState[key];
+                foreach (var error in state.Errors)
+                {
+                    Console.WriteLine($"Error in {key}: {error.ErrorMessage}");
+                }
+            }
+        }
         if (ModelState.IsValid)
         {
             try
@@ -39,7 +51,6 @@ public class EmailController : Controller
         message.From.Add(new MailboxAddress("Tea Corporation Support Team", "lichunxiajerry@163.com"));
         message.To.Add(new MailboxAddress("", toEmail));
         message.Subject = subject;
-
         var bodyBuilder = new BodyBuilder { TextBody = body };
         message.Body = bodyBuilder.ToMessageBody();
 
